@@ -1,5 +1,5 @@
 ace.define(
-  "ace/theme/alab_dar",
+  "ace/theme/alab_dark",
   ["require", "exports", "module", "ace/lib/dom"],
   function(acequire, exports, module) {
     exports.isDark = true;
