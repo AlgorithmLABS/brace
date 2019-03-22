@@ -17,6 +17,9 @@ background: #384B6B\
 background-color: #384B6B;\
 color: #E6E1DC\
 }\
+.ace-alab-dark .ace-statement {\
+color: #726A95;\
+}\
 .ace-alab-dark .ace_entity.ace_other.ace_attribute-name,\
 .ace-alab-dark .ace_storage {\
 color: #93A1A1\
@@ -74,6 +77,9 @@ border-color: #93A1A1\
 .ace-alab-dark .ace_variable,\
 .ace-alab-dark .ace_variable.ace_language {\
 color: #268BD2\
+}\
+.ace-alab-dark .ace_keyword {\
+color: #C986EA;\
 }\
 .ace-alab-dark .ace_keyword.ace_operator {\
 color: #268BD2;\
