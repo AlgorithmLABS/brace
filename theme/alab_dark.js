@@ -48,6 +48,10 @@ border: 1px solid #0099fe\
 .ace-alab-dark .ace_invisible {\
 color: rgba(147, 161, 161, 0.50)\
 }\
+.alab-dark .ace_definition,\
+.alab-dark .ace_type {\
+color: #aac6e3;\
+}\
 .ace-alab-dark .ace_keyword,\
 .ace-alab-dark .ace_meta,\
 .ace-alab-dark .ace_support.ace_class,\
