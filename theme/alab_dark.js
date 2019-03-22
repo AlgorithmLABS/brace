@@ -94,7 +94,7 @@ color: #333;\
 color: #0099fe;\
 }\
 .alab-dark .ace_keyword {\
-color: #726A95;\
+color: #C986EA;\
 }\
 .alab-dark .ace_keyword.ace_operator {\
 color: #0099fe;\
@@ -141,7 +141,7 @@ color: #DAD085;\
 color: #9b859d;\
 }\
 .alab-dark .ace_string {\
-color: #8f9d6a;\
+color: #CF7EA9;\
 }\
 .alab-dark .ace_string.ace_regexp {\
 color: #DAD085;\
