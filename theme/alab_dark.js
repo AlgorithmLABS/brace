@@ -52,9 +52,9 @@ color: rgba(147, 161, 161, 0.50)\
 .ace-alab-dark .ace_meta,\
 .ace-alab-dark .ace_support.ace_class,\
 .ace-alab-dark .ace_support.ace_type {\
-color: #aed9da\
+color: #aac6e3\
 }\
-.alab-dark .ace_constant {\
+.ace-alab-dark .ace_constant {\
 color: #CF7EA9;\
 }\
 .ace-alab-dark .ace_constant.ace_language {\
@@ -64,7 +64,7 @@ color: #CF7EA9\
 color: #E9C77B\
 }\
 .ace-alab-dark .ace_fold {\
-background-color: #268BD2;\
+background-color: #aac6e3;\
 border-color: #93A1A1\
 }\
 .ace-alab-dark .ace_entity.ace_name.ace_function,\
@@ -72,16 +72,16 @@ border-color: #93A1A1\
 .ace-alab-dark .ace_support.ace_function,\
 .ace-alab-dark .ace_variable,\
 .ace-alab-dark .ace_variable.ace_language {\
-color: #268BD2\
+color: #aac6e3\
 }\
 .ace-alab-dark .ace_keyword {\
 color: #C986EA;\
 }\
 .ace-alab-dark .ace_keyword.ace_operator {\
-color: #268BD2;\
+color: #aac6e3;\
 }\
 .ace-alab-dark .ace_punctuation.ace_operator {\
-color: #268BD2;\
+color: #aac6e3;\
 }\
 .ace-alab-dark .ace_string {\
 color: #CF7EA9\
