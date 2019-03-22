@@ -28,6 +28,9 @@ color: #93A1A1\
 .ace-alab-dark .ace_string.ace_regexp {\
 color: #7991E8\
 }\
+.ace-alab-dark .ace_marker-layer .ace_selection {\
+background: rgba(255, 255, 255, 0.1)\
+}\
 .ace-alab-dark.ace_multiselect .ace_selection.ace_start {\
 box-shadow: 0 0 3px 0px #002B36;\
 }\
