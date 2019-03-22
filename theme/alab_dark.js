@@ -6,16 +6,16 @@ ace.define(
     exports.cssClass = "ace-alab-dark";
     exports.cssText =
       ".ace-alab-dark .ace_gutter {\
-background: #01313f;\
-color: #d0edf7\
+background: #384B6B;\
+color: #a9a9a9\
 }\
 .ace-alab-dark .ace_print-margin {\
 width: 1px;\
-background: #33555E\
+background: #384B6B\
 }\
 .ace-alab-dark {\
-background-color: #002B36;\
-color: #93A1A1\
+background-color: #384B6B;\
+color: #E6E1DC\
 }\
 .ace-alab-dark .ace_entity.ace_other.ace_attribute-name,\
 .ace-alab-dark .ace_storage {\
@@ -23,7 +23,7 @@ color: #93A1A1\
 }\
 .ace-alab-dark .ace_cursor,\
 .ace-alab-dark .ace_string.ace_regexp {\
-color: #D30102\
+color: #DAD085\
 }\
 .ace-alab-dark .ace_marker-layer .ace_active-line,\
 .ace-alab-dark .ace_marker-layer .ace_selection {\
