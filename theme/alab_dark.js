@@ -48,8 +48,8 @@ border: 1px solid #0099fe\
 .ace-alab-dark .ace_invisible {\
 color: rgba(147, 161, 161, 0.50)\
 }\
-.alab-dark .ace_definition,\
-.alab-dark .ace_type {\
+.ace-alab-dark .ace_definition,\
+.ace-alab-dark .ace_type {\
 color: #aac6e3;\
 }\
 .ace-alab-dark .ace_keyword,\
@@ -59,10 +59,10 @@ color: #aac6e3;\
 color: #aac6e3\
 }\
 .ace-alab-dark .ace_constant {\
-color: #CF7EA9;\
+color: #C986EA;\
 }\
 .ace-alab-dark .ace_constant.ace_language {\
-color: #CF7EA9\
+color: #C986EA\
 }\
 .ace-alab-dark .ace_constant.ace_numeric {\
 color: #E9C77B\
@@ -79,7 +79,7 @@ border-color: #93A1A1\
 color: #aac6e3\
 }\
 .ace-alab-dark .ace_keyword {\
-color: #C986EA;\
+color: #CF7EA9;\
 }\
 .ace-alab-dark .ace_keyword.ace_operator {\
 color: #aac6e3;\
