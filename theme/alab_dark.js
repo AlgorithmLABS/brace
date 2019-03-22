@@ -52,11 +52,7 @@ color: rgba(147, 161, 161, 0.50)\
 .ace-alab-dark .ace_meta,\
 .ace-alab-dark .ace_support.ace_class,\
 .ace-alab-dark .ace_support.ace_type {\
-color: #aac6e3\
-}\
-.ace-alab-dark .ace_constant.ace_character,\
-.ace-alab-dark .ace_constant.ace_other {\
-color: #CB4B16\
+color: #aed9da\
 }\
 .alab-dark .ace_constant {\
 color: #CF7EA9;\
