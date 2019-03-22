@@ -6,7 +6,7 @@ ace.define(
     exports.cssClass = "alab-dark";
     exports.cssText =
       ".alab-dark .ace_gutter {\
-background-color: #293b5a;\
+background-color: #3B4E6F;\
 background-image: -moz-linear-gradient(left, #3D3D3D, #333);\
 background-image: -ms-linear-gradient(left, #3D3D3D, #333);\
 background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3D3D3D), to(#333));\
@@ -57,7 +57,7 @@ box-shadow: inset 0 0 10px black;\
 }\
 .alab-dark {\
 color: #E6E1DC;\
-background-color: #293b5a;\
+background-color: #3B4E6F;\
 }\
 .alab-dark .ace_cursor {\
 border-left: 1px solid #7991E8;\
@@ -70,7 +70,7 @@ background: #766B13;\
 z-index: 0;\
 }\
 .alab-dark .ace_marker-layer .ace_selection {\
-background: rgba(221, 240, 255, 0.20);\
+background: rgba(221, 1, 255, 0.20);\
 }\
 .alab-dark .ace_marker-layer .ace_selected-word {\
 border-radius: 4px;\
@@ -171,7 +171,7 @@ color: #494949;\
 }\
 .alab-dark .ace_gutter-layer,\
 .alab-dark .ace_text-layer {\
-background-color: #293b5a;\
+background-color: #3B4E6F;\
 }\
 .alab-dark .ace_indent-guide {\
 background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNQUFD4z6Crq/sfAAuYAuYl+7lfAAAAAElFTkSuQmCC\") right repeat-y;\
