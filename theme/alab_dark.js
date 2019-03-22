@@ -14,9 +14,7 @@ background-image: -webkit-linear-gradient(left, #3D3D3D, #333);\
 background-image: -o-linear-gradient(left, #3D3D3D, #333);\
 background-image: linear-gradient(left, #3D3D3D, #333);\
 background-repeat: repeat-x;\
-border-right: 1px solid #4d4d4d;\
-text-shadow: 0px 1px 1px #4d4d4d;\
-color: #222;\
+color: #5d5d5d;\
 }\
 .alab-dark .ace_gutter-layer {\
 background: repeat left top;\
@@ -96,18 +94,18 @@ color: #333;\
 color: #0099fe;\
 }\
 .alab-dark .ace_keyword {\
-color: #cda869;\
+color: #726A95;\
 }\
 .alab-dark .ace_keyword.ace_operator {\
-color: #fa8d6a;\
+color: #0099fe;\
 }\
 .alab-dark .ace_punctuation.ace_operator {\
-color: #fa8d6a;\
+color: #0099fe;\
 }\
 .alab-dark .ace_identifier {\
 }\
 .alab-dark .ace-statement {\
-color: #cda869;\
+color: #726A95;\
 }\
 .alab-dark .ace_constant {\
 color: #CF7EA9;\
@@ -118,7 +116,7 @@ color: #CF7EA9;\
 .alab-dark .ace_constant.ace_library {\
 }\
 .alab-dark .ace_constant.ace_numeric {\
-color: #78CF8A;\
+color: #E9C77B;\
 }\
 .alab-dark .ace_invalid {\
 text-decoration: underline;\
@@ -150,7 +148,7 @@ color: #DAD085;\
 }\
 .alab-dark .ace_comment {\
 font-style: italic;\
-color: #c9c9c9;\
+color: #a9a9a9;\
 }\
 .alab-dark .ace_comment.ace_doc {\
 }\
