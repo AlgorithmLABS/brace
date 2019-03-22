@@ -23,7 +23,7 @@ color: #93A1A1\
 }\
 .ace-alab-dark .ace_cursor,\
 .ace-alab-dark .ace_string.ace_regexp {\
-color: #DAD085\
+color: #7991E8\
 }\
 .ace-alab-dark .ace_marker-layer .ace_active-line,\
 .ace-alab-dark .ace_marker-layer .ace_selection {\
@@ -52,7 +52,7 @@ color: rgba(147, 161, 161, 0.50)\
 .ace-alab-dark .ace_meta,\
 .ace-alab-dark .ace_support.ace_class,\
 .ace-alab-dark .ace_support.ace_type {\
-color: #859900\
+color: #aac6e3\
 }\
 .ace-alab-dark .ace_constant.ace_character,\
 .ace-alab-dark .ace_constant.ace_other {\
