@@ -3,178 +3,87 @@ ace.define(
   ["require", "exports", "module", "ace/lib/dom"],
   function(acequire, exports, module) {
     exports.isDark = true;
-    exports.cssClass = "alab-dark";
+    exports.cssClass = "ace-alab-dark";
     exports.cssText =
-      ".alab-dark .ace_gutter {\
-background-color: #3B4E6F;\
-background-image: -moz-linear-gradient(left, #3D3D3D, #333);\
-background-image: -ms-linear-gradient(left, #3D3D3D, #333);\
-background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3D3D3D), to(#333));\
-background-image: -webkit-linear-gradient(left, #3D3D3D, #333);\
-background-image: -o-linear-gradient(left, #3D3D3D, #333);\
-background-image: linear-gradient(left, #3D3D3D, #333);\
-background-repeat: repeat-x;\
-color: #5d5d5d;\
+      ".ace-alab-dark .ace_gutter {\
+background: #01313f;\
+color: #d0edf7\
 }\
-.alab-dark .ace_gutter-layer {\
-background: repeat left top;\
+.ace-alab-dark .ace_print-margin {\
+width: 1px;\
+background: #33555E\
 }\
-.alab-dark .ace_gutter-active-line {\
-background-color: #3F3F3F;\
+.ace-alab-dark {\
+background-color: #002B36;\
+color: #93A1A1\
 }\
-.alab-dark .ace_fold-widget {\
-text-align: center;\
+.ace-alab-dark .ace_entity.ace_other.ace_attribute-name,\
+.ace-alab-dark .ace_storage {\
+color: #93A1A1\
 }\
-.alab-dark .ace_fold-widget:hover {\
-color: #777;\
+.ace-alab-dark .ace_cursor,\
+.ace-alab-dark .ace_string.ace_regexp {\
+color: #D30102\
 }\
-.alab-dark .ace_fold-widget.ace_start,\
-.alab-dark .ace_fold-widget.ace_end,\
-.alab-dark .ace_fold-widget.ace_closed{\
-background: none;\
-border: none;\
-box-shadow: none;\
+.ace-alab-dark .ace_marker-layer .ace_active-line,\
+.ace-alab-dark .ace_marker-layer .ace_selection {\
+background: rgba(255, 255, 255, 0.1)\
 }\
-.alab-dark .ace_fold-widget.ace_start:after {\
-content: '▾'\
+.ace-alab-dark.ace_multiselect .ace_selection.ace_start {\
+box-shadow: 0 0 3px 0px #002B36;\
 }\
-.alab-dark .ace_fold-widget.ace_end:after {\
-content: '▴'\
+.ace-alab-dark .ace_marker-layer .ace_step {\
+background: rgb(102, 82, 0)\
 }\
-.alab-dark .ace_fold-widget.ace_closed:after {\
-content: '‣'\
-}\
-.alab-dark .ace_print-margin {\
-border-left: 1px dotted #2D2D2D;\
-right: 0;\
-background: #262626;\
-}\
-.alab-dark .ace_scroller {\
--webkit-box-shadow: inset 0 0 10px black;\
--moz-box-shadow: inset 0 0 10px black;\
--o-box-shadow: inset 0 0 10px black;\
-box-shadow: inset 0 0 10px black;\
-}\
-.alab-dark {\
-color: #E6E1DC;\
-background-color: #3B4E6F;\
-}\
-.alab-dark .ace_cursor {\
-border-left: 1px solid #7991E8;\
-}\
-.alab-dark .ace_overwrite-cursors .ace_cursor {\
-border: 1px solid #FFE300;\
-background: #766B13;\
-}\
-.alab-dark.normal-mode .ace_cursor-layer {\
-z-index: 0;\
-}\
-.alab-dark .ace_marker-layer .ace_selection {\
-background: rgba(221, 1, 255, 0.20);\
-}\
-.alab-dark .ace_marker-layer .ace_selected-word {\
-border-radius: 4px;\
-border: 8px solid #3f475d;\
-box-shadow: 0 0 4px black;\
-}\
-.alab-dark .ace_marker-layer .ace_step {\
-background: rgb(198, 219, 174);\
-}\
-.alab-dark .ace_marker-layer .ace_bracket {\
+.ace-alab-dark .ace_marker-layer .ace_bracket {\
 margin: -1px 0 0 -1px;\
-border: 1px solid rgba(255, 255, 255, 0.25);\
+border: 1px solid rgba(147, 161, 161, 0.50)\
 }\
-.alab-dark .ace_marker-layer .ace_active-line {\
-background: rgba(255, 255, 255, 0.031);\
+.ace-alab-dark .ace_gutter-active-line {\
+background-color: #0d3440\
 }\
-.alab-dark .ace_invisible {\
-color: #333;\
+.ace-alab-dark .ace_marker-layer .ace_selected-word {\
+border: 1px solid #073642\
 }\
-.alab-dark .ace_paren {\
-color: #0099fe;\
+.ace-alab-dark .ace_invisible {\
+color: rgba(147, 161, 161, 0.50)\
 }\
-.alab-dark .ace_keyword {\
-color: #C986EA;\
+.ace-alab-dark .ace_keyword,\
+.ace-alab-dark .ace_meta,\
+.ace-alab-dark .ace_support.ace_class,\
+.ace-alab-dark .ace_support.ace_type {\
+color: #859900\
 }\
-.alab-dark .ace_keyword.ace_operator {\
-color: #0099fe;\
+.ace-alab-dark .ace_constant.ace_character,\
+.ace-alab-dark .ace_constant.ace_other {\
+color: #CB4B16\
 }\
-.alab-dark .ace_punctuation.ace_operator {\
-color: #0099fe;\
+.ace-alab-dark .ace_constant.ace_language {\
+color: #B58900\
 }\
-.alab-dark .ace_identifier {\
+.ace-alab-dark .ace_constant.ace_numeric {\
+color: #D33682\
 }\
-.alab-dark .ace-statement {\
-color: #726A95;\
+.ace-alab-dark .ace_fold {\
+background-color: #268BD2;\
+border-color: #93A1A1\
 }\
-.alab-dark .ace_constant {\
-color: #CF7EA9;\
+.ace-alab-dark .ace_entity.ace_name.ace_function,\
+.ace-alab-dark .ace_entity.ace_name.ace_tag,\
+.ace-alab-dark .ace_support.ace_function,\
+.ace-alab-dark .ace_variable,\
+.ace-alab-dark .ace_variable.ace_language {\
+color: #268BD2\
 }\
-.alab-dark .ace_constant.ace_language {\
-color: #CF7EA9;\
+.ace-alab-dark .ace_string {\
+color: #2AA198\
 }\
-.alab-dark .ace_constant.ace_library {\
-}\
-.alab-dark .ace_constant.ace_numeric {\
-color: #E9C77B;\
-}\
-.alab-dark .ace_invalid {\
-text-decoration: underline;\
-}\
-.alab-dark .ace_invalid.ace_illegal {\
-color:#F8F8F8;\
-background-color: rgba(86, 45, 86, 0.75);\
-}\
-.alab-dark .ace_invalid,\
-.alab-dark .ace_deprecated {\
-text-decoration: underline;\
+.ace-alab-dark .ace_comment {\
 font-style: italic;\
-color: #D2A8A1;\
+color: #657B83\
 }\
-.alab-dark .ace_support {\
-color: #9B859D;\
-}\
-.alab-dark .ace_support.ace_function {\
-color: #DAD085;\
-}\
-.alab-dark .ace_function.ace_buildin {\
-color: #9b859d;\
-}\
-.alab-dark .ace_string {\
-color: #CF7EA9;\
-}\
-.alab-dark .ace_string.ace_regexp {\
-color: #DAD085;\
-}\
-.alab-dark .ace_comment {\
-font-style: italic;\
-color: #a9a9a9;\
-}\
-.alab-dark .ace_comment.ace_doc {\
-}\
-.alab-dark .ace_comment.ace_doc.ace_tag {\
-color: #666;\
-font-style: normal;\
-}\
-.alab-dark .ace_definition,\
-.alab-dark .ace_type {\
-color: #aac6e3;\
-}\
-.alab-dark .ace_variable {\
-color: #9999cc;\
-}\
-.alab-dark .ace_variable.ace_language {\
-color: #9b859d;\
-}\
-.alab-dark .ace_xml-pe {\
-color: #494949;\
-}\
-.alab-dark .ace_gutter-layer,\
-.alab-dark .ace_text-layer {\
-background-color: #3B4E6F;\
-}\
-.alab-dark .ace_indent-guide {\
-background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNQUFD4z6Crq/sfAAuYAuYl+7lfAAAAAElFTkSuQmCC\") right repeat-y;\
+.ace-alab-dark .ace_indent-guide {\
+background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNg0Db1ZVCxc/sPAAd4AlUHlLenAAAAAElFTkSuQmCC) right repeat-y\
 }";
 
     var dom = acequire("../lib/dom");
