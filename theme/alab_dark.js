@@ -39,11 +39,8 @@ background: rgb(102, 82, 0)\
 margin: -1px 0 0 -1px;\
 border: 1px solid rgba(147, 161, 161, 0.50)\
 }\
-.ace-alab-dark .ace_gutter-active-line {\
-background-color: #0d3440\
-}\
 .ace-alab-dark .ace_marker-layer .ace_selected-word {\
-border: 1px solid #073642\
+border: 1px solid #0099fe\
 }\
 .ace-alab-dark .ace_invisible {\
 color: rgba(147, 161, 161, 0.50)\
@@ -58,11 +55,14 @@ color: #aac6e3\
 .ace-alab-dark .ace_constant.ace_other {\
 color: #CB4B16\
 }\
+.alab-dark .ace_constant {\
+color: #CF7EA9;\
+}\
 .ace-alab-dark .ace_constant.ace_language {\
-color: #B58900\
+color: #CF7EA9\
 }\
 .ace-alab-dark .ace_constant.ace_numeric {\
-color: #D33682\
+color: #E9C77B\
 }\
 .ace-alab-dark .ace_fold {\
 background-color: #268BD2;\
@@ -75,8 +75,14 @@ border-color: #93A1A1\
 .ace-alab-dark .ace_variable.ace_language {\
 color: #268BD2\
 }\
+.ace-alab-dark .ace_keyword.ace_operator {\
+color: #268BD2;\
+}\
+.ace-alab-dark .ace_punctuation.ace_operator {\
+color: #268BD2;\
+}\
 .ace-alab-dark .ace_string {\
-color: #2AA198\
+color: #CF7EA9\
 }\
 .ace-alab-dark .ace_comment {\
 font-style: italic;\
